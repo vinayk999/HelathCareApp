@@ -14,8 +14,8 @@ public class EmployeeController {
 	@RequestMapping("/view")
 	public String showMsg(){
 		log.info("in controller");
-		//System.out.println("in view controller");
-		log.info("in controller");
+		/*//System.out.println("in view controller");
+		log.info("in controller");*/
 		return "View";
 	}
 }
